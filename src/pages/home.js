@@ -9,10 +9,10 @@ export function displayHome(){
     homeContainer.classList.add("home-container");
 
     const sectionOne = document.createElement("section");
-    sectionOne.classList.add("section-one");
+    sectionOne.classList.add("home-section-one");
 
     const sectionTwo = document.createElement("section");
-    sectionTwo.classList.add("section-two");
+    sectionTwo.classList.add("home-section-two");
 
     // Section 1 display
     const homeImg = document.createElement("img");
@@ -95,17 +95,17 @@ export function displayHome(){
         const cardTitle = document.createElement("h3");
         cardTitle.classList.add("card-title");
 
-        const cardParahraph = document.createElement("p");
-        cardParahraph.classList.add("card-paragraph");
+        const cardParagraph = document.createElement("p");
+        cardParagraph.classList.add("card-paragraph");
 
         iconImg.src = item.icon;
         cardTitle.textContent = item.title;
-        cardParahraph.textContent = item.description;
+        cardParagraph.textContent = item.description;
 
         cardHeader.appendChild(iconImg);
         cardHeader.appendChild(cardTitle);
         card.appendChild(cardHeader);
-        card.appendChild(cardParahraph);
+        card.appendChild(cardParagraph);
         cardsContainer.appendChild(card);
 
     });

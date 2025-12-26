@@ -1,4 +1,5 @@
 import { displayHome } from "./pages/home.js";
+import { displayMenu } from "./pages/menu.js";
 
 const navBtns = document.querySelector("nav");
 const contentBody = document.querySelector("div#content");
@@ -12,7 +13,12 @@ navBtns.addEventListener("click", (event) =>{
     switch (target.id) {
         case "home":
             contentBody.innerHTML = '';
-            contentBody.appendChild(displayHome())
+            contentBody.appendChild(displayHome());
+            break;
+
+        case "menu":
+            contentBody.innerHTML = '';
+            contentBody.appendChild(displayMenu());
             break;
     
         default:
