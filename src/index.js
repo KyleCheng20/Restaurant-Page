@@ -1,5 +1,6 @@
 import { displayHome } from "./pages/home.js";
 import { displayMenu } from "./pages/menu.js";
+import { displayAbout } from "./pages/about.js";
 
 const navBtns = document.querySelector("nav");
 const contentBody = document.querySelector("div#content");
@@ -19,6 +20,11 @@ navBtns.addEventListener("click", (event) =>{
         case "menu":
             contentBody.innerHTML = '';
             contentBody.appendChild(displayMenu());
+            break;
+
+        case "about":
+            contentBody.innerHTML = '';
+            contentBody.appendChild(displayAbout());
             break;
     
         default:
