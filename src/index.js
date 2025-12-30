@@ -1,6 +1,7 @@
 import { displayHome } from "./pages/home.js";
 import { displayMenu } from "./pages/menu.js";
 import { displayAbout } from "./pages/about.js";
+import "./style.css";
 
 const navBtns = document.querySelector("nav");
 const contentBody = document.querySelector("div#content");

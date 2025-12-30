@@ -50,6 +50,9 @@ export function displayHome(){
     const sectionTwoTitle = document.createElement("h2");
     sectionTwoTitle.classList.add("section-two-title");
 
+    const sectionTwoInner = document.createElement("div");
+    sectionTwoInner.classList.add("home-section-two-inner");
+
     const cardsContainer = document.createElement("div");
     cardsContainer.classList.add("cards-container");
 
@@ -110,8 +113,8 @@ export function displayHome(){
 
     });
 
-    sectionTwo.appendChild(sectionTwoTitle);
-    sectionTwo.appendChild(cardsContainer);
+    sectionTwoInner.append(sectionTwoTitle, cardsContainer)
+    sectionTwo.appendChild(sectionTwoInner);
 
     homeContainer.appendChild(sectionOne);
     homeContainer.appendChild(sectionTwo);
