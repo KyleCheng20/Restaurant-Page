@@ -75,32 +75,26 @@ export function displayMenu(){
             image: supremePizza,
             name: "Supreme Pizza",
             price: "$17.00",
-            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus congue lacus at lacinia fermentum.
-                        Nunc placerat nunc in mauris tincidunt vestibulum. 
-                        Vestibulum tortor dolor, finibus eu metus quis, hendrerit condimentum purus.`
+            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus congue lacus at lacinia fermentum.`
         },
         {
             image: margheritaPizza,
             name: "Margherita Pizza",
             price: "$18.00",
-            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a consequat magna. 
-                        Sed finibus tortor ut mollis mollis. Fusce luctus nibh felis, in placerat nisi fringilla.`
+            description: `Lorem ipsum dolor sit nec facilisis amet, consectetur lectus molestie adipiscing elit. Sed a consequat magna.`
         },
         {
             image: hawaiianPizza,
             name: "Hawaiian Pizza",
             price: "$16.00",
             description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Vivamus eget tortor non mauris luctus aliquam. Etiam at massa eu arcu gravida imperdiet. 
-                        Duis metus metus, tincidunt ullamcorper elit quis, lobortis bibendum augue.`
+                        Vivamus eget tortor non mauris luctus aliquam.`
         },
         {
             image: deepDishPizza,
             name: "Chicago Deep Dish Pizza",
             price: "$17.00",
-            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac luctus libero. 
-                        Nam dui urna, mattis convallis placerat id, tristique ac felis. Nullam fringilla orci lacus. 
-                        Vivamus quis tortor enim. Phasellus laoreet porta metus, vel mollis mauris venenatis eu.`
+            description: `Lorem ipsum dolor fermentum sit nec facilisis amet, consectetur nibh sed adipiscing elit. Mauris ac luctus libero.`
         },
     ];
 
@@ -125,29 +119,25 @@ export function displayMenu(){
             image: macAndCheese,
             name: "Mac and Cheese",
             price: "$4.00",
-            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet urna ac mi laoreet fermentum. 
-                        Nam tincidunt in quam at mattis. Praesent vel diam erat. Nam placerat faucibus sollicitudin.`
+            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet urna ac mi laoreet fermentum.`
         },
         {
             image: mozzarellaSticks,
             name: "Mozzarella Sticks",
             price: "$4.00",
-            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor nibh sed lectus molestie tempor eget sed eros. 
-                        Mauris vitae efficitur tellus.`
+            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor nibh sed lectus molestie.`
         },
         {
             image: buffaloWings,
             name: "Buffalo Wings",
             price: "$8.00",
-            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie suscipit tristique. Mauris mollis pretium sem porta ultrices. 
-                        Nunc gravida massa ac elementum scelerisque. Nullam mollis non lacus id ultricies.`
+            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus libero molestie suscipit tristique.`
         },
         {
             image: breadSticks,
             name: "Garlic Bread Sticks",
             price: "$5.00",
-            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec facilisis enim. 
-                        Integer ultricies rhoncus eros pellentesque pretium. Proin rutrum, arcu sed mattis dignissim, erat justo ornare purus.`
+            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus libero nec facilisis enim.`
         },
     ];
 
