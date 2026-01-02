@@ -26,7 +26,13 @@ export function displayAbout(){
     paragraphTwo.classList.add("paragraph-two");
     paragraphTwo.textContent = `Mauris auctor sapien in eros blandit, vitae porttitor urna pretium. Sed feugiat nec justo et maximus. 
                                 Nunc sit amet ultricies ipsum. Nullam semper gravida diam, ac auctor sem hendrerit et. Donec aliquam lacus in iaculis varius. 
-                                Praesent imperdiet sapien vel dui mattis tincidunt. Pellentesque luctus purus diam, sit amet tristique quam tempus pellentesque.`;
+                                Praesent imperdiet sapien vel dui mattis tincidunt. Pellentesque luctus purus diam, sit amet tristique quam tempus pellentesque.
+                                Vivamus vel metus in lectus auctor fringilla vitae nec dolor. Vestibulum scelerisque ante eu nisl bibendum tempus. 
+                                Phasellus sodales, mauris at aliquam bibendum, velit dolor lacinia tellus, et vestibulum eros lacus eget justo. 
+                                Integer eget magna in tellus faucibus blandit at ut turpis. 
+                                Donec fermentum, ligula vitae rhoncus porttitor, nibh massa sagittis purus, at semper erat nisi ac mi. 
+                                Maecenas ut nisi tempor, aliquet est at, gravida leo. Mauris venenatis fermentum nisi, id auctor ex tempor vitae. 
+                                Aenean viverra lacus convallis risus bibendum accumsan. Pellentesque eget ultrices enim, eu maximus erat.`;
 
     aboutInfo.append(aboutHeader, paragraphOne, paragraphTwo);
     aboutContainer.append(img, aboutInfo);
